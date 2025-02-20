@@ -87,7 +87,8 @@ body {
     align-items: center;
     justify-content: center;
     /* flex-direction: row; */
-    gap: 60px;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .see {
@@ -160,16 +161,27 @@ body {
         gap: 0;
 
     }
-    .works{
-        display: flex
-;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    }
-    .see{
 
+    /* .works{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    } */
+    .see{
+        width: 90%;
+        display: block;
+        margin: 0px auto;
+        padding: 17px 40px;
+        margin: 0px 27.17px;
+    }
+    .connect{
+        width: 90%;
+        display: block;
+        margin: 0px auto;
+        padding: 17px 40px;
+        margin: 0px 27.17px;
     }
 }
 @media screen and (max-width :425px){
@@ -183,4 +195,14 @@ body {
 .site-content h1{
     font-size: 20px;
 }
+}
+@media screen and (max-width :320px) {
+    .see{
+        text-align: center;
+        padding: 20px;
+    }
+    .connect{
+        text-align: center;
+        padding: 20px;
+    }
 }
